@@ -115,7 +115,7 @@ def game(q_minutes, ot_minutes, pace, three_penalty, tight_game, randomness):
     print()
 
 @edit.command()
-@click.option("--name", type=int, default=None, help="Change the name of team1.")
+@click.option("--name", type=str, default=None, help="Change the name of team1.")
 @click.option("--skill", type=int, default=None, help="Change the skill points of team1 on a RAPTOR scale (1500 is average).")
 @click.option("--threefreq", type=float, default=None, help="Change the three point frequency of team1.")
 def team1(name, skill, threefreq):
@@ -124,7 +124,7 @@ def team1(name, skill, threefreq):
     print()
 
 @edit.command()
-@click.option("--name", type=int, default=None, help="Change the name of team2.")
+@click.option("--name", type=str, default=None, help="Change the name of team2.")
 @click.option("--skill", type=int, default=None, help="Change the skill points of team2 on a RAPTOR scale (1500 is average).")
 @click.option("--threefreq", type=float, default=None, help="Change the three point frequency of team2.")
 def team2(name, skill, threefreq):
