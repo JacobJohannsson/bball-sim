@@ -1,0 +1,12 @@
+{
+    "initial_condition_quarter": "q3",
+    "initial_condition_time": "2:00",
+    "initial_condition_home_score": 95,
+    "initial_condition_away_score": 100,
+    "initial_condition_home_fouls": 0,
+    "initial_condition_away_fouls": 0,
+    "initial_condition_jumpball_winner": "home",
+    "initial_condition_possession": "home",
+    "initial_condition_shot_clock": 24,
+    "initial_condition_condition": "def_inbound"
+}
