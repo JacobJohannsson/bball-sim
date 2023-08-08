@@ -71,4 +71,4 @@ def list_nba_games(nba_games=False, nba_playoffs=False, nba_seasons=False):
                                     print("\t{} --> display with path: {}/{}/{}/{}/{}".format(game, sim_type, season, month, series, game))
             
             elif sim_type == "nba_playoffs":
-                print("none")
+                print("Not currently available")

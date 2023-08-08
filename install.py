@@ -23,5 +23,14 @@ def install_directory():
         source_directory = "{}/bball".format(package_directory)  # Replace with the source directory of your files
         shutil.copytree(source_directory, install_path)
 
+        print(install_path)
+
+        os.makedirs("{}/{}/{}/{}".format(install_path, "results", "basement_games", "generated_games"))
+        os.makedirs("{}/{}/{}".format(install_path, "results", "nba"))
+        os.makedirs("{}/{}/{}/{}".format(install_path, "results", "nba", "nba_games"))
+        os.makedirs("{}/{}/{}/{}".format(install_path, "results", "nba", "nba_playoffs"))
+        os.makedirs("{}/{}/{}/{}".format(install_path, "results", "nba", "nba_probabilities"))
+        os.makedirs("{}/{}/{}/{}".format(install_path, "results", "nba", "nba_seasons"))
+
 if __name__ == "__main__":
     install_directory()

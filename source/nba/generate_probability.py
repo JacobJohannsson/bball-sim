@@ -123,7 +123,7 @@ def game_probability(home_team, away_team, games, initial_condition="None"):
             
         sys.stdout.write("\r" + " " * 50 + "\r")
         sys.stdout.flush()
-        sys.stdout.write("\rSimulating {}... Currently on game: {}".format(session_name, i+1))
+        sys.stdout.write("\rSimulating {}... Currently on game: {}/{}".format(session_name, i+1, games))
         sys.stdout.flush()
         
     # remove created directory for temp games
